@@ -1,9 +1,19 @@
 import streamlit as st
 
 st.title("My First Assignment in Innomatics Data App :boom:")
+st.snow()
+st.header("My Name is Junnu")
 
-st.header("My Name is Junnu :heart:")
+st.subheader(" I am very glad to meet you all in this greatful platform!")
 
-st.subheader(" I am very glad to meet you all in this greatful platform! :heart_eyes:")
+btn_click = st.button("Click Me!")
+
+if btn_click == True:
+  st.subheader("You clicked me :cry:")
+  st.balloons()
+
+
+
+
 
 
